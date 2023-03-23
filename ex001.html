@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercícios</title>
+
+    <style>
+        .listas{
+            display: flex;
+            justify-content: center;
+        }
+        #title-table{
+            background-color: rgba(137, 43, 226, 0.651);
+            color: white;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+        }
+    </style>
 </head>
 <body>
     <h1>HTML<sup>Linguagem de Marcação de Hipertexto</sup></h1>
@@ -19,9 +31,12 @@
 
     <table border="1">
         <thead>
+            <tr id="title-table">
+                <th colspan="2">&lt;Tabela de TAGS HTML&gt;</th>
+            </tr>
             <tr>
-                <th>&lt;TAG&gt;</th>
-                <th>UTILIDADE</th>
+                <th>TAG</th>
+                <th>Pra que serve</th>
             </tr>
         </thead>
         <tbody>
@@ -59,5 +74,21 @@
             </tr>
         </tbody>
     </table>
+    <div class="listas">
+        <ul>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+        </ul>
+        <ol class="list-order">
+            <li>HTTP</li>
+            <li>WWW</li>
+            <li>SMTP</li>
+            <li>FTP</li>
+            <li>SSH</li>
+        </ol>
+    </div>
 </body>
 </html>
