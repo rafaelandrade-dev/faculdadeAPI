@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <form action="obrigado.html" method="get">
+            <div class="title">Sing UP</div>
+            <div class="input-container">
+                <input type="email" name="InputEmail" id="Email" placeholder="Digite seu email" class="input" required>
+                <input type="password" name="InputPassword" id="Password" placeholder="Digite sua senha" class="input" required>
+                <button type="submit">Enviar</button>
+            </div>
+            <select name="assunto" id="select">
+                <option value="sugestao">Sugestão</option>
+                <option value="critica">Crítica</option>
+                <option value="elogio">Elogio</option>
+            </select>
+            <input type="text" id="mensagem" required>
+
+            <div class="termos">
+                <label>Concordo com os termos</label>
+                <input type="checkbox" value="Concordo com os termos" required>
+            </div>
+            
+            <aside><p>If you have an account login <a href="#">Here</a></p></aside>
+        </form>
+    </main>
+</body>
+</html>
