@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,0.9108018207282913) 0%, rgba(252,70,107,0.9640231092436975) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,0.9108018207282913) 0%, rgba(164, 70, 252, 0.964) 100%);
 }
 
 main{
@@ -22,7 +23,7 @@ form{
 
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .input-container{
@@ -49,7 +50,7 @@ form{
     height: 3rem;
     border-radius: 20px;
     box-shadow: 2px 2px 4px solid black;
-    border: 2px solid rgba(252,70,107,0.9640231092436975);
+    border: 2px solid rgba(149, 70, 252, 0.964);
 }
 
 .input::placeholder{
@@ -71,9 +72,12 @@ button{
     border: none;
     border-radius: 20px;
 }
+button > a {
+    color: white;
+}
 
 button:hover {
-    background-color: rgba(252,70,107,0.9640231092436975);
+    background-color: rgba(185, 70, 252, 0.964);
     transform: translateY(-4px);
     transition: all 0.4s;
 
@@ -91,7 +95,7 @@ aside{
 }
 
 a{
-    color: rgba(252,70,107,0.9640231092436975);
+    color: rgba(179, 70, 252, 0.964);
 }
 
 .termos{
